@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache/build files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Local app/runtime data
+textconverter/data/*.csv
+textconverter/data/*.pkl
+textconverter/data/*.db
+textconverter/data/air_drawings/
+!textconverter/data/.gitkeep
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+nul
+
+# Logs
+*.log
