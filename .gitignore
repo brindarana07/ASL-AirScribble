@@ -1,3 +1,32 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Data, models, and runtime outputs
+data/
+*.pkl
+*.db
+air_drawings/
+air_draw_samples/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 # Virtual environments
 .venv/
 venv/
