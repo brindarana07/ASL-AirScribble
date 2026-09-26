@@ -305,6 +305,3 @@
  - Settings window using Tkinter
  - Better sentence-level correction
 
- ## License
-
- This project is intended for academic and portfolio use. Add a license file before publishing if you want to define reuse terms.
