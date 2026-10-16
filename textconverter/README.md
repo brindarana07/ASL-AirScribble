@@ -262,9 +262,9 @@ Q or ESC  = quit
 
 Saved drawings are stored locally in:
 
-```text
+``text
 textconverter/data/air_drawings/
-```
+
 
 ## Session History
 
@@ -293,7 +293,7 @@ Webcam frame
 → Text generation
 → Offline speech output
 → SQLite session storage
-```
+
 
 ## Limitations
 
@@ -305,6 +305,7 @@ Webcam frame
 
 ## Future Improvements
 
+
 - Motion recognition for `J` and `Z`
 - Automatic air-drawn character recognition
 - Multiple user profiles
@@ -313,5 +314,6 @@ Webcam frame
 - Better language model for sentence correction
 
 ## License
+
 
 This project is intended for academic and portfolio use. Add a license file before publishing if you want to define reuse terms.
