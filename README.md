@@ -19,6 +19,7 @@
  - Air drawing mode with smoothed white brush strokes
  - Trainable air-drawn letter recognition using a small local classifier
  - Fully local model, dataset, drawing, and session storage
+ - can handle the motion alphabets like 'j' and 'z'.
 
  ## Tech Stack
 
@@ -31,7 +32,6 @@
  - pyttsx3
  - SQLite
 
- Do not use Python 3.12 for this project. MediaPipe support is more reliable with Python 3.9 to 3.11.
 
  ## Project Structure
 
@@ -293,8 +293,8 @@
  - Air drawing recognition must be trained with your own drawn samples.
  - Accuracy depends on lighting, webcam quality, hand position, and sample variety.
  - Static signs are supported first.
- - Motion signs such as `J` and `Z` need sequence tracking for best accuracy.
  - Air drawing accuracy improves when letters are drawn in a consistent size and style.
+   
 
  ## Future Improvements
 
